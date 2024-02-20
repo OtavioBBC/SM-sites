@@ -97,9 +97,9 @@
   }
 }
 /* Desktop - 1300px (To make image background parallax) */
-@media only screen and (min-width: 65rem) {
+@media only screen and (min-width: 83rem) {
   #hero-81 {
-    padding: clamp(1rem, 25.95vw, 9rem) 1rem 7rem;
+    padding: clamp(1rem, 25.95vw, 9rem) 1rem .5rem;
     background-color: var(--secondary);
     display: flex;
     flex-direction: row;
@@ -155,7 +155,7 @@
   #services-285 {
     /* centers the button */
     text-align: center;
-    padding: var(--sectionPadding);
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     background-color: var(--secondary);
@@ -324,7 +324,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #services-285 {
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
   }
   #services-285 .cs-content {
     padding: 0;
@@ -415,7 +415,7 @@
 @media only screen and (min-width: 63em) {
   #list-893 {
     flex-direction: row;
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
   }
   #list-893 .cs-content {
     width: 50rem;
@@ -478,6 +478,7 @@
 @media only screen and (min-width: 0rem) {
   #RPsbsr-580 {
     margin: 1rem;
+    padding-bottom: 1rem;
   }
   #RPsbsr-580 .cs-container {
     display: flex;
@@ -584,7 +585,7 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #RPsbsr-581 {
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
     margin: 1.01rem;
   }
   #RPsbsr-581 .cs-container {
@@ -600,7 +601,7 @@
   }
   #RPsbsr-581 .cs-container img {
     width: 100%;
-    height: 100%;
+    height: clamp(40rem, 50vw,50rem);
   }
   #RPsbsr-581 .cs-container .cs-content {
     text-align: left;
@@ -659,6 +660,7 @@
     /* clips corners of green border */
     overflow: hidden;
     position: relative;
+
   }
   #reviews-442 .cs-wrapper:after {
     /* green bar */
@@ -696,7 +698,7 @@
     font-size: clamp(1rem, 2vw, 1.5625rem);
     line-height: 1.5em;
     /* 24px - 48px changes at tablet */
-    margin: 0 0 clamp(1.5rem, 3vw, 3rem) 0;
+    margin: 0 0 2rem 0;
     color: #FCFAFE;
     position: relative;
     z-index: 1;
@@ -764,7 +766,7 @@
   }
   #reviews-442 .cs-review {
     /* 48px - 96px, clamp changes at desktop */
-    margin-bottom: clamp(3rem, 7vw, 6rem);
+    margin-bottom: 1rem;
   }
   #reviews-442 .cs-quote {
     /* 80px - 120px , clamp changes at tablet */
@@ -793,7 +795,7 @@
   }
   #reviews-442 .cs-review {
     /* 48px - 96px changes at tablet */
-    margin: 0 0 clamp(3rem, 4.2vw + 2rem, 6rem) 0;
+    margin: 0 0 2rem 0;
   }
 }
 /*-- -------------------------- -->
@@ -1196,8 +1198,8 @@
   }
   #pricing-1387 .cs-flex {
     /* 196px - 250px */
-    width: clamp(12.25rem, 25vw, 15.625rem);
-    height: clamp(12.25rem, 25vw, 15.625rem);
+    width: clamp(15.25rem, 25vw, 19.625rem);
+    height: clamp(15.25rem, 25vw, 19.625rem);
     margin-bottom: -6.25rem;
     border-radius: 50%;
     background-color: #3C096C;
