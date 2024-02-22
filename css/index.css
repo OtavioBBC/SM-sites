@@ -1,4 +1,4 @@
-/*-- -------------------------- -->
+/*/-- -------------------------- -->
 <---           Hero             -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
@@ -382,11 +382,9 @@
   }
   #list-893 .cs-li:before {
     /* accent shape */
-    content: url("ass");
+    content: url("/assets/icons/check.svg");
     width: 0.5rem;
     height: 0.5rem;
-    margin-top: 0.5rem;
-    background: #bababa;
     border-radius: 0.25rem 0 0.25rem 0;
     display: block;
     /* prevents flexbox from squishing it */
@@ -601,7 +599,7 @@
   }
   #RPsbsr-581 .cs-container img {
     width: 100%;
-    height: clamp(40rem, 50vw,50rem);
+    height: clamp(40rem, 35vw,50rem);
   }
   #RPsbsr-581 .cs-container .cs-content {
     text-align: left;
@@ -664,7 +662,6 @@
   }
   #reviews-442 .cs-wrapper:after {
     /* green bar */
-    content: "";
     width: 100%;
     height: 0.5rem;
     background: var(--primaryLight);
