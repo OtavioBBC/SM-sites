@@ -324,7 +324,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #services-285 {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
   }
   #services-285 .cs-content {
     padding: 0;
@@ -509,7 +509,7 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
   #RPsbsr-580 {
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
     margin: 1.01rem;
   }
   #RPsbsr-580 .cs-container {
@@ -594,12 +594,12 @@
     gap: 2rem;
   }
   #RPsbsr-581 .cs-container .cs-picture {
-    width: clamp(40rem, 50vw, 40.75rem);
-    height: clamp(35rem, 42vw, 45rem);
+    width: clamp(40rem, 34vw, 40.75rem);
+    height: clamp(40rem, 37.5vw, 45rem);
   }
   #RPsbsr-581 .cs-container img {
     width: 100%;
-    height: clamp(40rem, 35vw,50rem);
+    height: clamp(41rem, 37.5vw, 45rem);
   }
   #RPsbsr-581 .cs-container .cs-content {
     text-align: left;
@@ -801,7 +801,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
   #why-choose-442 {
-    padding: var(--sectionPadding);
+    padding-top: 3rem;
     background-color: #F9F2FF;
   }
   #why-choose-442 .cs-container {
@@ -931,7 +931,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48em) {
   #why-choose-442 {
-    padding-bottom: 7rem;
+    padding-bottom: 1rem;
   }
   #why-choose-442 .cs-container {
     max-width: 80rem;
