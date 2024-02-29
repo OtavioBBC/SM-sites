@@ -4,7 +4,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #cs-contact-265 {
-    padding: var(--sectionPadding);
+    padding: clamp(4.75rem, 7.82vw, 6.25rem) 1rem;
   }
   #cs-contact-265 .cs-container {
     width: 100%;
@@ -31,7 +31,7 @@
 
   #cs-contact-265 .cs-text {
     line-height: 1.5em;
-    color: white;
+
   }
 
   #cs-contact-265 #cs-form-265 label {
@@ -40,7 +40,7 @@
     font-weight: 700;
     /* 12px - 20px */
     margin-bottom: clamp(0.75rem, 1.3em, 1.25rem);
-    color: white;
+  
     display: flex;
     justify-content: center;
     align-items: flex-start;
